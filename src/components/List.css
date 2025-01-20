@@ -1,0 +1,19 @@
+.table-container {
+    width: 100%; /* Ensures the container takes up full width */
+  }
+  
+  table {
+    width: 100%; /* Table takes up the full width of the container */
+    border-collapse: collapse; /* Removes spacing between table cells */
+    table-layout: fixed; /* Ensures equal column widths */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Optional: Adds a border to cells */
+    text-align: left; /* Centers text in the cells */
+    padding: 8px; /* Adds padding for better readability */
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Optional: Highlights the header row */
+  }
